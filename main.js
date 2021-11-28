@@ -65,7 +65,7 @@ scene.background = spaceTexture;
 
 // Avatar
 
-const ivanaTexture = new THREE.TextureLoader().load('ivana.png');
+const ivanaTexture = new THREE.TextureLoader().load('https://i.imgur.com/xIpeIod.jpg');
 
 const ivana = new THREE.Mesh(new THREE.BoxGeometry(3, 3, 3), new THREE.MeshBasicMaterial({ map: ivanaTexture }));
 
@@ -74,9 +74,9 @@ scene.add(ivana);
 // Earth
 
 const earthTexture = new THREE.TextureLoader().load('world.topo.bathy.200401.jpg');
-const normalTexture = new THREE.TextureLoader().load('earth_normalmap.jpg');
-const bumpTexture = new THREE.TextureLoader().load('earth_bumpmap.jpg');
-const cloudTexture = new THREE.TextureLoader().load('fair_clouds_8k.jpg');
+const normalTexture = new THREE.TextureLoader().load('https://i.imgur.com/esjgKtt.jpg');
+const bumpTexture = new THREE.TextureLoader().load('https://i.imgur.com/8yDLJMD.jpg');
+const cloudTexture = new THREE.TextureLoader().load('https://i.imgur.com/fnBl3iI.jpg');
 
 const earth = new THREE.Mesh(
   new THREE.SphereGeometry(3, 32, 32),
