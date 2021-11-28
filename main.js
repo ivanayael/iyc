@@ -84,10 +84,6 @@ const earth = new THREE.Mesh(
     map: earthTexture,
     bumpMap: bumpTexture,
     normalMap: normalTexture
-  }),
-  new THREE.MeshPhongMaterial({
-    map: cloudTexture,
-    transparent: true
   })
 );
 
