@@ -73,7 +73,7 @@ scene.add(ivana);
 
 // Earth
 
-const earthTexture = new THREE.TextureLoader().load('world.topo.bathy.200401.jpg');
+const earthTexture = new THREE.TextureLoader().load('https://i.imgur.com/NgIOK6S.jpg');
 const normalTexture = new THREE.TextureLoader().load('https://i.imgur.com/esjgKtt.jpg');
 const bumpTexture = new THREE.TextureLoader().load('https://i.imgur.com/8yDLJMD.jpg');
 const cloudTexture = new THREE.TextureLoader().load('https://i.imgur.com/fnBl3iI.jpg');
