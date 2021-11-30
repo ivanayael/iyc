@@ -73,4 +73,22 @@ h1, h2, h3, blockquote {
     grid-column: 6 / 12;
   }
 
-  
+/* unvisited link */
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
