@@ -46,7 +46,7 @@ h1, h2, h3, blockquote {
   }
 
   section {
-    grid-column: 2 / 11;
+    grid-column: 2 / 12;
     padding: 1rem;
     background: var(--dark-bg);
     font-size: 1.25rem;
@@ -72,3 +72,5 @@ h1, h2, h3, blockquote {
   .left {
     grid-column: 6 / 12;
   }
+
+  
