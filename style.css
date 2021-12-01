@@ -78,7 +78,7 @@ h2, h3, blockquote {
   }
 
   .left {
-    grid-column: 4 / 11;
+    grid-column: 3 / 10;
   }
 
 
