@@ -63,6 +63,7 @@ Array(200).fill().forEach(addStar);
 const spaceTexture = new THREE.TextureLoader().load('https://i.imgur.com/NgIOK6S.jpg');
 scene.background = spaceTexture;
 
+
 // Avatar
 
 const ivanaTexture = new THREE.TextureLoader().load('https://i.imgur.com/xIpeIod.jpg');
