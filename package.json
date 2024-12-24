@@ -7,9 +7,10 @@
     "serve": "vite preview"
   },
   "devDependencies": {
-    "vite": "^2.6.4"
+    "vite": "^6.0.1"
   },
   "dependencies": {
-    "three": "^0.147.0"
+    "three": "^0.147.0",
+    "three-orbitcontrols": "^2.110.3"
   }
 }
