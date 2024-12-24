@@ -1,8 +1,6 @@
 import './style.css';
 import * as THREE from 'three';
-import structuredClone from 'structured-clone';
-
-const deepCopy = structuredClone(obj);
+import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
 
 // Setup
 
